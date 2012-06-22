@@ -1,3 +1,6 @@
+include_recipe "libthai-data"
+include_recipe "libdatrie"
+
 packages = Array.new
 
 case node[:lsb][:codename]
